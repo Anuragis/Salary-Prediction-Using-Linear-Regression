@@ -14,7 +14,7 @@ import org.apache.spark.SparkConf;
 public class SparkConnection {
 
 	//A name for the spark instance. Can be any string
-	private static String appName = "V2 Maestros";
+	private static String appName = "Spark App";
 	//Pointer / URL to the Spark instance - embedded
 	private static String sparkMaster = "local[2]";
 	
